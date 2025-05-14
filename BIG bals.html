@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>KingIMoose</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      background: linear-gradient(45deg, #ff6ec4, #7873f5, #4ade80, #facc15);
+      background-size: 400% 400%;
+      animation: gradient 12s ease infinite;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      color: white;
+      text-align: center;
+      overflow: hidden;
+    }
+
+    @keyframes gradient {
+      0% {background-position: 0% 50%;}
+      50% {background-position: 100% 50%;}
+      100% {background-position: 0% 50%;}
+    }
+
+    .container {
+      background: rgba(0, 0, 0, 0.5);
+      padding: 2.5rem 3rem;
+      border-radius: 25px;
+      box-shadow: 0 0 30px rgba(255, 255, 255, 0.6);
+      backdrop-filter: blur(10px);
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+      text-shadow: 2px 2px 4px #000;
+    }
+
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+    }
+
+    .button {
+      font-size: 1.3rem;
+      padding: 0.8rem 2rem;
+      border: none;
+      border-radius: 12px;
+      background-color: #ffffff;
+      color: #000;
+      text-decoration: none;
+      font-weight: bold;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+      transition: all 0.3s ease;
+    }
+
+    .button:hover {
+      background-color: #ff6ec4;
+      color: white;
+      transform: scale(1.1);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🎉 Welcome to KingIMoose's World! 🎮</h1>
+    <p>Click below to check out the YouTube channel!</p>
+    <a href="https://www.youtube.com/@kingimoose" target="_blank" class="button">Go to YouTube 🎥</a>
+  </div>
+</body>
+</html>
